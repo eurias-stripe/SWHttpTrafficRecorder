@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SlothCreator",
+    name: "SWHttpTrafficRecorder",
     platforms: [
         .iOS(.v12),
     ],
@@ -16,9 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "SWHttpTrafficRecorder",
-            resources: [
-                .process("Resources/")
-            ]
+            path: "SWHttpTrafficRecorder"
         )
     ]
 )
